@@ -287,6 +287,7 @@ function check(){
 
 }
 function quiznext(){
+    document.getElementById('answer').value = "";
     console.log("in quiznext ")
     if(current >= quizarray.length){
         doneQuiz()
