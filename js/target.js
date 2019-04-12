@@ -31,6 +31,7 @@ function restart(){
     document.getElementById("container").style.display = "block";
     document.getElementById("cont").style.display = "none";
     document.getElementById("quiz").style.display = "none";
+    document.getElementById("prevButton").style.display = "none";
     
     // var x = document.getElementById("cont");
     // if (x.style.display === "block") {
@@ -117,10 +118,14 @@ function done(){
         var target = document.getElementById("cont");
     // document.getElementById("container").style.visibility = "hidden";
     target.innerHTML = '<div class="row ">' +
-    '<div class="col-12">' +
+    '<div class="col-12 ">' +
             '<div class="mx-auto counter " >' +
                     'Congratualtions! You Finished Stuyding ' + start + " to " + end + '!' +
-                    '<img src="https://media.giphy.com/media/xT8qB7u5XikjS4OGzK/giphy.gif" alt="">' + 
+                   
+       ' </div>' + 
+       '<div class="mx-auto counter " >' +
+                    
+                    '<img class = "small" src="https://media.giphy.com/media/xT8qB7u5XikjS4OGzK/giphy.gif" alt="">' + 
        ' </div>' + 
     '</div>' +
    
