@@ -9,7 +9,7 @@ const rateValue = document.querySelector('#rate-value'); //value of slider
 // const body = document.querySelector('body'); 
 
 
-var number = 800; 
+var number = 1; 
 
 function jump(){
 
